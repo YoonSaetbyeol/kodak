@@ -1,0 +1,46 @@
+@charset "urf-8";
+#wrap {width: 100%;  margin: 0 auto; overflow: hidden;}
+header {background: url(../img/main.jpg); background-size: cover;  position: relative; width: 100%; height: 666px;}
+#header_logo {position: relative; width: 20%; height: 40px;}
+#header_logo > img {position: absolute; height: 40px; left: 15px; top: 10px;}
+
+#menu_bar {float: right; margin-right: 3%; overflow: hidden; }
+#menu_bar > div > ul > li {float:left; margin-left:100px; }
+#menu_bar > div > ul > li > a {display: block; font-size: 24px; color: #fff; font-weight: bold;}
+
+section {position: relative; margin: 0 auto; width: 100%; overflow: hidden;}
+section h2 {font-size: 27px;}
+section > #article1 {position: relative; width: 100%; margin: 0 auto; overflow: hidden;}
+section > #article1 > h2 {margin: 100px; text-align: center;}
+section > #article1 > h3 {position: absolute; top: 280px; left: 520px; font-size: 30px; color: #aaa;}
+section > #article1 > .p1 {position: absolute; top: 350px; left: 520px; font-size: 14px; color: #666;}
+section > #article1 > .p2 {position: absolute; top: 450px; left: 520px; font-weight: bold; font-size: 15px; color: #555;}
+section > #article1 > img {width: 25%; float: right; margin-right: 420px;} 
+section > #article1 > a {position: absolute; padding: 0px 5px 2px; right:732px; top:1015px; color: gray; font-size: 12px; border: 1px solid gray; border-radius: 40px;}
+
+section > #article2 {position: relative; width: 60%; margin: 0 auto; overflow: hidden;}
+section > #article2 > h2 {margin: 100px; text-align: center; font-weight: bold;}
+section > #article2 > p {position: absolute; top: 545px; right: 0px; font-size: 50px; font-weight: bold; color: #ffb300; }
+section > #article2 > a > img {float: left; width: 50%; height: 400px; opacity: 90%;}
+
+section > #article3 {position: relative; width: 100%; height: 780px;}
+section > #article3 > #h1 {position: absolute; top: 100px; left: 595px;}
+section > #article3 > h3 {position: absolute; top: 150px; left: 595px; font-size: 30px; color: #aaa;}
+section > #article3 > p {position: absolute; top: 250px; left: 595px; color: #666; font-size: 12px;}
+section > #article3 > #m1 {position: absolute; top: 420px; left: 595px; width: 350px; z-index: 10;}
+section > #article3 > #m2 {position:absolute; left: 990px; top: 120px; height: 480px;}
+
+footer {position: relative; width: 100%;}
+#footer1 {position: relative; width: 100%; height:40px;}
+#footer_logo {position: relative;}
+#footer_logo > img {position: absolute; left: 590px; width: 11%;}
+#footer_p{position: relative;}
+#footer_p > .footer_p1 {position: absolute; left: 850px; font-size: 11px; }
+#footer_p > .footer_p2 {position: absolute; left: 1200px; font-size: 11px;}
+
+#footer2 {width: 100%; text-align: center;}
+
+#footer2 >div {display: block; height: 40px; background: #161616;}
+#footer2 > div > a {position: relative; top: 7px; margin: 2%; color: #999; font-size: 14px;} 
+#footer2 > div > a::after {content: "|"; display: inline-block; margin-left: 100px; _margin-right: 40px; color: #999;}
+#footer2 > .bmenu > a:last-child::after {content: "";}
